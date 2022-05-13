@@ -29,3 +29,8 @@ body {
     font-weight:400;
     letter-spacing:2px;
 }
+
+.smallText{
+    text-align:right;
+    color: grey;
+}
