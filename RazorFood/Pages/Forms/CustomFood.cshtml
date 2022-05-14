@@ -5,8 +5,19 @@
 
 <div class="text-center container">
     <h1>Create your Own Food</h1>
-    <form method="post">
+    <form method="post" class="mx-auto mt-5 mb-5 px-5 pt-5 rounded-5 bg-light col-4">
         <input type="text" asp-for="Food.FoodName" placeholder="Give your Food a name..." />
+        <br/>
+        <input type="checkbox" asp-for="Food.FoodSauce" placeholder="Food Sauce or not"/> Food Sauce
+        <br/>
+        <input type="checkbox" asp-for="Food.Pepper" placeholder="Pepper or not"/>Pepper
+        <br/>
+        <input type="checkbox" asp-for="Food.Mushroom" placeholder="Do you want Mushroom"/>Mushroom
+        <br>
+        <input type="checkbox" asp-for="Food.Ham" placeholder="Do you Want Ham" />Ham
+        <br/>
+        <input type="checkbox" asp-for="Food.Pineapple" placeholder="Do you want Pinneaple"/>Pinneaple
+        <br />
         <button class="btn btn-primary mt-1" type="submit">Order My Food</button>
     </form>
 </div>
