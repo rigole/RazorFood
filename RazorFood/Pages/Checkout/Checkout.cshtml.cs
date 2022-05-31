@@ -19,7 +19,7 @@ namespace RazorFood.Pages.Checkout
             }
             if (string.IsNullOrWhiteSpace(ImageTitle))
             {
-                ImageTitle = "Create";
+                ImageTitle = "Itachi";
             }
 
         }

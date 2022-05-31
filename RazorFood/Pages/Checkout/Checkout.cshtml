@@ -9,10 +9,10 @@
 }
 <div class="align-content-center">
     <div class="col-3 mx-auto mb-5">
-        <img src=@imagePath class="w-100" asp-append-version="true"/>
+        <img src="@imagePath" class="w-100" asp-append-version="true"/>
         <p>Your order for the @Model.FoodName  food is ready!</p>
-        <p>Total Price for your order is : @Model.FoodPrice </p>
+        <p>Total Price for your order is : @Model.FoodPrice FCFA </p>
         <br />
-        <a class="btn-primary alert-primary mt-1 mx-auto" asp-area="" asp-page="  ThankYouPage">Confirm your Order</a>
+        <a class="btn alert-primary mt-1 mx-auto" asp-area="" asp-page="ThankYou">Confirm your Order</a>
     </div>
 </div>
