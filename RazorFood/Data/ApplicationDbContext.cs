@@ -6,8 +6,9 @@ namespace RazorFood.Data
     {
         public DbSet<FoodOrder> FoodOrders { get; set; }
 
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options): base()
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options): base(options)
         {
+
 
         }
 
