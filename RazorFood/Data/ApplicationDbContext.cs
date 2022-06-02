@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RazorFood.Models;
+
 namespace RazorFood.Data
 {
     public class ApplicationDbContext : DbContext
@@ -12,5 +13,9 @@ namespace RazorFood.Data
 
         }
 
+        public static implicit operator string(ApplicationDbContext v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
