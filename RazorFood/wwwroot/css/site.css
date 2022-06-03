@@ -44,3 +44,7 @@ body {
     margin: 100px 0 20px 0;
     color: white;
 }
+
+.food-img :hover {
+    transform: scale(1.05);
+}
